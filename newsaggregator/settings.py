@@ -26,6 +26,8 @@ NEWS_API_KEY = '44cc6b2a630143e6a50583d4cf16c1e8'
 REDDIT_USER_AGENT = 'news-aggregator/1.0 (+https://www.example.com/contact)'
 REDDIT_CLIENT_SECRET = 'SA5XPFn742CMZaPnJw0c_6RmxeAkwQ'
 REDDIT_CLIENT_ID = 'TUeEhSG2vK6kmtPHcBhFwg'
+
+USER_NAME = 'Abid Raza'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -41,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'getnews.apps.GetnewsConfig'
 ]
 
 MIDDLEWARE = [
