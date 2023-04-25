@@ -22,6 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure--xs-o-o%i*z7lisds8evflsir1**^%jix8s3xw@z&+5w+7!%6)'
 
+NEWS_API_KEY = '44cc6b2a630143e6a50583d4cf16c1e8'
+REDDIT_USER_AGENT = 'news-aggregator/1.0 (+https://www.example.com/contact)'
+REDDIT_CLIENT_SECRET = 'SA5XPFn742CMZaPnJw0c_6RmxeAkwQ'
+REDDIT_CLIENT_ID = 'TUeEhSG2vK6kmtPHcBhFwg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
