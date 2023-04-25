@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path('list',views.listNews),
-    path('get',views.get_news),
-    path(' favourite',views.toggle_favorite),
+    path('store',views.storeDataInDB),
+    path('get',views.collectNews),
+    path('favourite',views.toggle_favorite),
 ]

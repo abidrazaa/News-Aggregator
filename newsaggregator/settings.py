@@ -27,7 +27,7 @@ REDDIT_USER_AGENT = 'news-aggregator/1.0 (+https://www.example.com/contact)'
 REDDIT_CLIENT_SECRET = 'SA5XPFn742CMZaPnJw0c_6RmxeAkwQ'
 REDDIT_CLIENT_ID = 'TUeEhSG2vK6kmtPHcBhFwg'
 
-USER_NAME = 'Abid Raza'
+USER_NAME = 'abid'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 

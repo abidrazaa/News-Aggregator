@@ -8,7 +8,7 @@ class News(models.Model):
     headline = models.CharField(max_length=255)
     link = models.URLField()
     source = models.CharField(max_length=255)
-    published_at = models.DateTimeField()
+    published_at = models.CharField(max_length=255)
     updated_at = models.DateTimeField(auto_now=True)
     favorite = models.BooleanField(default=False)
     user = models.CharField(max_length=255, default='')
