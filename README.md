@@ -1,8 +1,6 @@
 # News-Aggregator
 
-# Project Name
-
-This is a Django project that does X, Y, and Z.
+This is a Django project that retrieves data from Reddit and NEWS API. It implements some of the backend functionalities like storing data into the Database, marking a news article as favorite and unmarking it. 
 
 ## Requirements
 
