@@ -36,3 +36,11 @@ Before running this project, you will need to have Python and Django installed o
         python manage.py runserver
 
     This will start the development server at `http://localhost:8000/`.
+    
+    
+ ## End Points
+ 1. news/list => to list news and the feature to search in the list of news.
+ 2. news/get => If the latest updated news is before 5 minutes, it will make an API call. else, it will retrieve data from the DB.
+ 3. news/favourite?user=[name] => It will list all the news that are marked favorite by the user.
+ 4. news/favourite?user=[name]&id=[id] => It will mark the news with the id={given_id} favorite and viceversa.
+ 
