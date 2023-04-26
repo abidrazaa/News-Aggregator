@@ -25,9 +25,7 @@ Before running this project, you will need to have Python and Django installed o
 
 3. Install project dependencies:
 
-    Once you have activated your virtual environment, you need to install the dependencies required for your Django project. To do this, navigate to the project directory and run the following command:
-
-        pip install -r requirements.txt
+    Once you have activated your virtual environment, you need to install the dependencies required for your Django project.
 
 4. Run the project:
 
